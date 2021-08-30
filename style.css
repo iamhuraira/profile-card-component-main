@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-size: 16px;
+    font-family:"Kumbh Sans" ;
+    background: url(./images/bg-pattern-top.svg) no-repeat -300px -400px,
+                url(./images/bg-pattern-bottom.svg) no-repeat  690px 450px,
+                    hsl(185, 75%, 39%) ;
+    
+}
+
+.main{
+    max-width: 1440px;
+    height: 900px;
+    display: flex;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    
+}
+.card1{
+    width: 350px;
+    height: 140px;
+    background: url(./images/bg-pattern-card.svg);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.card2{
+    width: 350px;
+    height: 230px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+.profile{
+    width: 96px ;
+    height: 96px;
+    margin: auto;
+}
+
+.profile img{
+    margin-top: -50px;
+    border-radius: 50px;
+    border: #FFFF 5px solid;
+}
+.card2 h1{
+    font-size: 100%;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: 10px;
+
+}
+.card2 span{
+    font-weight: 50;
+   padding-left: 5px;
+}
+.card2 p{
+    font-size: 90%;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-around;
+}
+
+.box-num h1{
+    margin-bottom: 5px;
+
+
+}
+.box-num p{
+    font-size: 75%;
+    letter-spacing: 1px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+}
+.att{
+    display: flex;
+    margin: auto;
+    margin-top: -200px;
+    
+}
+
+@media  screen and (min-width: 375px) {
+    body{
+        background: url(./images/bg-pattern-top.svg) no-repeat -700px -650px,
+                    url(./images/bg-pattern-bottom.svg) no-repeat 130px 280px,
+                    hsl(185, 75%, 39%);
+    }
+    .main{
+        min-width: 375;
+        height: 667px;
+    }
+    .card{
+        width: 300px;
+        height: 350px;
+        margin:auto;
+    }
+    .card1{
+        width: 300PX;
+        height: 140PX;
+    }
+    .card2{
+        width: 300px;
+        height: 230px;
+    }
+    .att{
+        margin-top: -100px;
+    }
+    
+    
+}
+
+@media  screen and (min-width:768px) {
+    body{
+        background: url(./images/bg-pattern-top.svg) no-repeat -550px -650px,
+        url(./images/bg-pattern-bottom.svg) no-repeat 300px 280px,
+        hsl(185, 75%, 39%);
+    }
+    .main{
+        min-width: 768px;
+        height: 1024px;
+    }
+    .att{
+        margin-top: -250px;
+    }
+}
+@media screen and (min-width:1366px) {
+    body{
+        background: url(./images/bg-pattern-top.svg) no-repeat -300px -480px,
+        url(./images/bg-pattern-bottom.svg) no-repeat 640px 390px,
+        hsl(185, 75%, 39%);
+    }
+    .main{
+        min-width: 1366px;
+        height: 768px;
+    }
+    .att{
+        margin-top: -150px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    body{
+        background: url(./images/bg-pattern-top.svg) no-repeat -250px -400px,
+        url(./images/bg-pattern-bottom.svg) no-repeat 1300px 580px,
+        hsl(185, 75%, 39%);
+    }
+    .main{
+        min-width: 1920px;
+        height: 1080px;
+    }
+    
+}
