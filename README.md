@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution Link](https://your-solution-url.com)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/html5-and-flex-box-4KX1og9ft)
 - Live Site URL: [Live Site ]( https://huraira429.github.io/profile-card-component-main/)
 
 ## My process
